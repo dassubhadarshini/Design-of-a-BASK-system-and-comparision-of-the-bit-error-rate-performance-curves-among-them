@@ -70,9 +70,7 @@
             </p>
         </div>
     </div>
-    <script>
-        // You can add JavaScript functionality here if needed
-    </script>
+   
 </body>
 </html>
 
