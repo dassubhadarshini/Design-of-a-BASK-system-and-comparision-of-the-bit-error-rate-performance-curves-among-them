@@ -1,15 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BASK System Project</title>
-    
+<head> 
       
 </head>
 <body>
     <div class="container">
-        <h1>BASK System Project</h1>
+        <h1>Design a BASK system and transmit your voice signal and photo as an image signal and compare the bit error rate performance curves among them.</h1>
         <div class="section">
             <h2>Project Overview</h2>
             <p>
