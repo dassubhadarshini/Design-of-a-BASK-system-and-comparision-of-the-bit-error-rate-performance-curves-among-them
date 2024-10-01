@@ -3,57 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BASK Modulation System Project</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Project: BASK System for Voice and Image Transmission</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
+            margin: 20px;
+            line-height: 1.6;
             color: #333;
-            margin: 0;
-            padding: 0 20px;
         }
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        h1 {
+            color: #0073e6;
+            text-align: center;
         }
-        h1, h2 {
-            color: #0056b3;
+        h2 {
+            color: #005bb5;
+            margin-top: 30px;
         }
         p {
-            line-height: 1.6;
+            margin-bottom: 20px;
         }
         code {
             background-color: #f4f4f4;
-            padding: 2px 4px;
+            padding: 5px;
             border-radius: 3px;
-            font-size: 90%;
+            display: block;
+            margin-bottom: 10px;
+        }
+        .highlight {
+            color: #e63946;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>BASK Modulation System Project</h1>
-        <p>
-            In this project, we design and implement a Binary Amplitude Shift Keying (BASK) modulation system to transmit and analyze voice and image signals.
-            The primary objective is to compare the <strong>Bit Error Rate (BER)</strong> performance of these two different types of signals under varying noise conditions.
-        </p>
-        <h2>Key Steps:</h2>
-        <ol>
-            <li><strong>Digital Signal Preparation:</strong> Converting the analog voice signal to a digital format using Pulse Code Modulation (PCM) and preparing the image signal for transmission.</li>
-            <li><strong>BASK Modulation:</strong> Implementing the BASK modulation to encode the binary data of both signals.</li>
-            <li><strong>Channel Simulation:</strong> Introducing noise to the communication channel to assess the robustness of the system.</li>
-            <li><strong>BASK Demodulation:</strong> Recovering the transmitted data and calculating the Bit Error Rate (BER) for different noise levels.</li>
-        </ol>
-        <p>
-            This simulation will help compare how voice and image signals behave in noisy communication channels. The final output will be a comparison of the BER performance curves for both signals.
-        </p>
-    </div>
+
+    <h1>Design a BASK System: Voice and Image Transmission</h1>
+
+    <p>In the realm of digital communication systems, efficient transmission and accurate reception of information are paramount. One of the fundamental techniques for digital modulation is <span class="highlight">Binary Amplitude Shift Keying (BASK)</span>, which offers a straightforward approach for encoding binary data into a carrier signal.</p>
+
+    <p>This project aims to design a BASK system for transmitting both voice and image signals, and to compare the <span class="highlight">Bit Error Rate (BER)</span> performance of these two types of signals under various conditions.</p>
+
+    <h2>Voice Signal Transmission</h2>
+    <p>Voice signals, inherently analog, are digitized using techniques such as <span class="highlight">Pulse Code Modulation (PCM)</span> before transmission. The resulting binary stream is then modulated using BASK. The digitization process converts the continuous analog waveform into discrete binary data, which can be further modulated for transmission.</p>
+
+    <h2>Image Signal Transmission</h2>
+    <p>Image signals, which are typically already in digital form, are directly suitable for modulation after appropriate preprocessing. Both voice and image signals are subjected to BASK modulation, transmitted over a simulated communication channel, and demodulated at the receiver end.</p>
+
+    <h2>Performance Evaluation</h2>
+    <p>The performance evaluation of the BASK system will focus on the <span class="highlight">Bit Error Rate (BER)</span>, a critical metric indicating the number of bits received incorrectly due to noise, interference, and other impairments in the communication channel. By comparing the BER performance of the voice and image signals, we can gain insights into the robustness and efficiency of BASK modulation for different types of data.</p>
+
 </body>
 </html>
-// This script can dynamically load additional content or show examples.
-document.addEventListener('DOMContentLoaded', function () {
-    console.log("Welcome to the BASK Modulation System Project!");
-});
